@@ -23,9 +23,8 @@ public class CheckInDailyTest {
         HoyoDaily.checkIn(feature, List.of(
 
                 CheckInAction.builder()
-                        .token(HoyoToken.of(System.getenv("USER_1_ID"), System.getenv("USER_1_TOKEN")))
+                        .token(HoyoToken.of(System.getenv("74377459"), System.getenv("v2_CAISDGNlMXRidXdiMDB6axokNTU3YmRkNDItYWNhZS00ZWY1LWEwODQtNDFjMTJlMWQzYjQ5IKn5wa8GKIep0vsEMPPRuyNCC2hrNGVfZ2xvYmFs")))
                         .game(GameType.GENSHIN_IMPACT)
-                        .game(GameType.HONKAI_STAR_RAIL)
                         .build()
 
 
